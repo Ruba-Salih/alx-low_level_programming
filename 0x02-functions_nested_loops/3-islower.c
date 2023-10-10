@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * _islower - Entry point
- *
+ * @c: an int 
  * Return: Always 0 (Success)
  */
 int _islower(int c)
