@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * print_last_digit - Entry point
- * @r: an int for 
- * @n: an int
+ * @r: an int for
+ *
  * Return: Always 0 (Success)
  */
 int print_last_digit(int r)
@@ -16,5 +16,6 @@ int print_last_digit(int r)
 		n = r % 10;
 
 	_putchar((n % 10) + '0');
+
 	return (n % 10);
 }
