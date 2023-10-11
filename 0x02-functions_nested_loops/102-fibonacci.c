@@ -8,8 +8,8 @@ int main(void)
 {
 	int sum, fib1, fib2, i = 0;
 
-	fib1 = 1;
-	fib2 = 2;
+	fib1 = 2;
+	fib2 = 1;
 	sum = 0;
 
 	for (i = 1; i <= 50; i++)
