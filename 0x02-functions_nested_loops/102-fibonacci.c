@@ -12,6 +12,13 @@ int main(void)
 	fib2 = 1;
 	sum = 0;
 
+	printf("%d", fib2);
+        printf(",");
+        printf(" ");
+	printf("%d", fib1);
+	printf(",");
+        printf(" ");
+
 	for (i = 1; i <= 50; i++)
 	{
 		sum = fib1 + fib2;
