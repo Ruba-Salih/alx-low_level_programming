@@ -8,11 +8,11 @@ int main(void)
 {
 	int sum, fib1, fib2, i = 0;
 
-	fib1 = 0;
-	fib2 = 1;
+	fib1 = 1;
+	fib2 = 2;
 	sum = 0;
 
-	for (i = 2; i <= 50; i++)
+	for (i = 1; i <= 50; i++)
 	{
 		sum = fib1 + fib2;
 
