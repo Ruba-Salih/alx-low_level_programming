@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	unsigned int sum, fib1, fib2, i = 0;
+	long int sum, fib1, fib2, i = 0;
 
 	fib1 = 2;
 	fib2 = 1;
