@@ -24,8 +24,8 @@ int main(void)
 		}
 		else
 			printf("%d", sum);
-		fib2 = sum;
-		fib1 = fib2;
+		fib2 = fib1;
+		fib1 = sum;
 	}
 
 	return (0);
