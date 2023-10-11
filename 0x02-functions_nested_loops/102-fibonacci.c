@@ -12,10 +12,10 @@ int main(void)
 	fib2 = 1;
 	sum = 0;
 
-	printf("%d", fib2);
+	printf("%ld", fib2);
 	printf(",");
 	printf(" ");
-	printf("%d", fib1);
+	printf("%ld", fib1);
 	printf(",");
 	printf(" ");
 
@@ -25,12 +25,12 @@ int main(void)
 
 		if (i != 50)
 		{
-			printf("%d", sum);
+			printf("%ld", sum);
 			printf(",");
 			printf(" ");
 		}
 		else
-			printf("%d", sum);
+			printf("%ld", sum);
 		fib2 = fib1;
 		fib1 = sum;
 	}
