@@ -19,7 +19,7 @@ int main(void)
 	printf(",");
 	printf(" ");
 
-	for (i = 1; i <= 50; i++)
+	for (i = 2; i <= 50; i++)
 	{
 		sum = fib1 + fib2;
 
