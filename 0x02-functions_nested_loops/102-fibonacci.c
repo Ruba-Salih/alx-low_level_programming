@@ -6,5 +6,32 @@
  */
 int main(void)
 {
-	
+	int fib1, fib2, i = 0;
+
+	fib1 = 0;
+	fib2 = 1;
+	int sum = 0;
+
+	printf("%d", fib1);
+	printf(",");
+	printf(" ");
+	printf("%d", fib2);
+	printf(",");
+	printf(" ");
+
+	for (i = 2; i <= 50; i++)
+	{
+		sum += fib1 + fib2;
+
+		if (i != 50)
+		{
+			printf("%d", sum);
+			printf(",");
+			printf(" ");
+		}
+		else
+			printf("%d", sum);
+		fib2 = sum;
+		fib1 = fib2;
+	}
 }
