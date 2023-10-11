@@ -6,18 +6,18 @@
  */
 int main(void)
 {
-	int sum, fib1, fib2, i = 0;
+	unsigned int sum, fib1, fib2, i = 0;
 
 	fib1 = 2;
 	fib2 = 1;
 	sum = 0;
 
 	printf("%d", fib2);
-        printf(",");
-        printf(" ");
+	printf(",");
+	printf(" ");
 	printf("%d", fib1);
 	printf(",");
-        printf(" ");
+	printf(" ");
 
 	for (i = 1; i <= 50; i++)
 	{
