@@ -30,7 +30,7 @@ int main(void)
 			printf(" ");
 		}
 		else
-			printf("%ld ", sum);
+			printf("%ld\n", sum);
 		fib2 = fib1;
 		fib1 = sum;
 
