@@ -14,7 +14,7 @@ int main(void)
 
 	for (i = 2; i <= 50; i++)
 	{
-		sum += fib1 + fib2;
+		sum = fib1 + fib2;
 
 		if (i != 50)
 		{
