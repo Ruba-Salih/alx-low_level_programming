@@ -6,11 +6,11 @@
  */
 int main(void)
 {
-	int fib1, fib2, i = 0;
+	int sum, fib1, fib2, i = 0;
 
 	fib1 = 0;
 	fib2 = 1;
-	int sum = 0;
+	sum = 0;
 
 	printf("%d", fib1);
 	printf(",");
@@ -34,4 +34,6 @@ int main(void)
 		fib2 = sum;
 		fib1 = fib2;
 	}
+
+	return (0);
 }
