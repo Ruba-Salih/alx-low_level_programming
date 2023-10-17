@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-
+#include <string.h>
 /**
  * print_rev - Entry point
  * @s:int
@@ -10,7 +10,7 @@ void print_rev(char *s)
 {
 	int ln, i;
 	
-	ln = _strlen(s);
+	ln = strlen(s);
 
 	for (i = ln; i >= 0; i--)
 	{
