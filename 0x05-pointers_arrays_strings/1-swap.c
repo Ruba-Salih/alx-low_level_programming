@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - Entry point
+ * swap_int - Entry point
  * @a:int
  * @b: int
  * Return: Always 0 (Success)
