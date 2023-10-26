@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 #include <stdio.h>
 /**
  * checker - checks recursively the input from is_prime_number
@@ -24,4 +24,4 @@ int checker(int n, int base)
 int is_prime_number(int n)
 {
 	return (checker(2, n));
-
+}
