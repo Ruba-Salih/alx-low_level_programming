@@ -15,19 +15,26 @@ char *str_concat(char *s1, char *s2)
 
 	len1 = strlen(s1);
 	len2 = strlen(s2);
-	ar = malloc(sizeof(char) * (len1 + len2 + 2));
+	ar = malloc(sizeof(char) * (len1 + len2 + 1));
 
 	if (ar == NULL)
 		return (NULL);
-	for (i = 0; i < len1; i++)
-		ar[i] = s1[i];
-
-	j = 0;
-	while (i < len1 + len2)
+	
+	if (s1 != NULL)
 	{
-		ar[i] = s2[j];
-		i++;
-		j++;
+		for (i = 0; i < len1; i++)
+			ar[i] = s1[i];
+	}
+
+	if (s2 != NULL)
+	{
+		j = 0;
+		while (i < len1 + len2)
+		{
+			ar[i] = s2[j];
+			i++;
+			j++;
+		}
 	}
 	return (ar);
 }
