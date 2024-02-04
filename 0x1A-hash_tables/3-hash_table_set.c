@@ -1,7 +1,7 @@
 #include "hash_tables.h"
 
 /**
- * key_index - Node of a hash table
+ * hash_table_set - Node of a hash table
  * @ht: A pointer to the next node of the List
  * @key: A pointer to the next node of the List
  * @value: A pointer to the next node of the List
@@ -25,7 +25,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	node->value = strdup(value);
 	node->next = NULL;
 
-	if (ht->array[index] != NULL) 
+	if (ht->array[index] != NULL)
 	{
 		tmp_node = (ht->array)[index];
 		while (tmp_node)
