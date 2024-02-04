@@ -2,7 +2,7 @@
 
 /**
  * hash_djb2 - Node of a hash table
- * @size: A pointer to the next node of the List
+ * @str: A pointer to the next node of the List
  * Return: table
  */
 unsigned long int hash_djb2(const unsigned char *str)
